@@ -74,7 +74,7 @@ class ApiClient
     /**
      * @param string $method
      * @param string $uri
-     * @param Entity $entity
+     * @param Entity|null $entity
      *
      * @return RequestInterface
      */
