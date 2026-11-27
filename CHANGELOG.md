@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## 2.8.1
 ### Fixed
-- PHP 8.4 and PHP 8.5 deprecation notices: implicitly nullable parameters are now explicitly nullable
+- PHP 8.4 and PHP 8.5 deprecation notices: the `$entity` parameter of `ApiClient::createRequest()`, the `$parameters` parameter of `ApiClient::createRequestWithParameters()` and the `$previous` parameter of `RequestException::__construct()` are now explicitly nullable
 
 ## 2.8.0
 ### Added
